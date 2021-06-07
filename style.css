@@ -154,7 +154,7 @@ a:hover {
       align-self: center;
   width: 15rem;
   background-color: rgba(0, 0, 0, 0.062);
-  padding: 2rem;
+  padding: 1.8rem;
   border-radius: 2rem;
   -webkit-box-shadow: -6px -6px 6px rgba(255, 255, 255, 0.966), 6px 6px 6px rgba(0, 0, 0, 0.233);
           box-shadow: -6px -6px 6px rgba(255, 255, 255, 0.966), 6px 6px 6px rgba(0, 0, 0, 0.233);
