@@ -153,7 +153,7 @@ a:hover {
   -ms-flex-item-align: center;
       align-self: center;
   background-color: rgba(0, 0, 0, 0.062);
-  padding: 2rem;
+  padding: 3rem;
   border-radius: 2rem;
   -webkit-box-shadow: -6px -6px 6px rgba(255, 255, 255, 0.966), 6px 6px 6px rgba(0, 0, 0, 0.233);
           box-shadow: -6px -6px 6px rgba(255, 255, 255, 0.966), 6px 6px 6px rgba(0, 0, 0, 0.233);
@@ -161,7 +161,7 @@ a:hover {
 
 .skillsandprojects .skill img {
   position: absolute;
-  top: 10rem;
+  top: 6rem;
   -ms-flex-item-align: center;
       -ms-grid-row-align: center;
       align-self: center;
@@ -170,7 +170,7 @@ a:hover {
       -ms-flex-direction: row;
           flex-direction: row;
   height: auto;
-  width: 8rem;
+  width: 7rem;
   opacity: 50%;
 }
 
@@ -188,11 +188,7 @@ a:hover {
 
 .skillsandprojects .skill ul li {
   list-style: none;
-}
-
-.skillsandprojects .skill ul li progress {
-  height: 1rem;
-  margin-bottom: 1.2rem;
+  padding-bottom: 1rem;
 }
 
 .skillsandprojects .about {
@@ -203,12 +199,6 @@ a:hover {
 .skillsandprojects .about p {
   margin-top: 2rem;
   text-align: left;
-}
-
-.skillsandprojects .about .banner img {
-  margin-top: 5rem;
-  height: auto;
-  width: 13rem;
 }
 
 .social {
@@ -335,13 +325,6 @@ footer {
     -ms-flex-line-pack: center;
         align-content: center;
   }
-  .skillsandprojects .about .banner img {
-    margin-top: 5rem;
-    height: auto;
-    width: 20rem;
-    -ms-flex-line-pack: center;
-        align-content: center;
-  }
 }
 
 @media only screen and (min-width: 700px) {
@@ -412,12 +395,6 @@ footer {
         -ms-flex-pack: center;
             justify-content: center;
     padding: 3rem;
-  }
-  .skillsandprojects .about .banner img {
-    margin-top: 5rem;
-    height: auto;
-    width: 25rem;
-    place-content: center;
   }
   .social {
     display: -webkit-box;

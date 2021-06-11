@@ -112,18 +112,18 @@ a:hover {
         justify-self: center;
         align-self: center;
         background-color: rgba(0, 0, 0, 0.062);
-        padding: 2rem;
+        padding: 3rem;
         border-radius: 2rem;
         box-shadow:
        - 6px -6px 6px rgba(255, 255, 255, 0.966),
          6px 6px 6px rgba(0, 0, 0, 0.233);
         img {
             position: absolute;
-            top:10rem;
+            top:6rem;
             align-self: center;
             flex-direction: row;
             height: auto;
-            width: 8rem;
+            width: 7rem;
             opacity: 50%;
         }
       
@@ -134,10 +134,7 @@ a:hover {
             z-index: 1;
             li {
                 list-style: none;
-                progress {
-                    height: 1rem;
-                    margin-bottom: 1.2rem;
-                }
+                padding-bottom: 1rem;
             }
     }
 
@@ -150,14 +147,7 @@ a:hover {
       margin-top: 2rem;
       text-align: left;
   }
-  .banner {
-    img {
-    margin-top: 5rem;
-    height: auto;
-    width: 15rem;
-    place-content: center;
-}
-    }
+
 }
 }
 .social {
@@ -259,15 +249,6 @@ footer {
             padding: 2rem;
             align-self: center;
             align-content: center;
-
-            .banner {
-                img {
-                margin-top: 5rem;
-                height: auto;
-                width: 20rem;
-                align-content: center;
-            }
-        }
     }
     }
 
@@ -328,15 +309,6 @@ footer {
          justify-self: center;
          justify-content: center;
          padding: 3rem;
-
-         .banner {
-             img {
-             margin-top: 5rem;
-             height: auto;
-             width: 30rem;
-             place-content: center;
-         }
-     }
     }
  }
 
