@@ -208,8 +208,7 @@ a:hover {
 .skillsandprojects .about .banner img {
   margin-top: 5rem;
   height: auto;
-  width: 15rem;
-  place-content: center;
+  width: 13rem;
 }
 
 .social {
@@ -417,7 +416,7 @@ footer {
   .skillsandprojects .about .banner img {
     margin-top: 5rem;
     height: auto;
-    width: 30rem;
+    width: 25rem;
     place-content: center;
   }
   .social {
