@@ -111,7 +111,6 @@ a:hover {
         position: relative;
         justify-self: center;
         align-self: center;
-        width: 15rem;
         background-color: rgba(0, 0, 0, 0.062);
         padding: 2rem;
         border-radius: 2rem;
@@ -242,7 +241,7 @@ footer {
     
 
         .skill {
-            width: 40%;
+            width: auto;
             justify-self: center;
             align-content: center;
             justify-content: space-between;

@@ -152,7 +152,6 @@ a:hover {
   justify-self: center;
   -ms-flex-item-align: center;
       align-self: center;
-  width: 15rem;
   background-color: rgba(0, 0, 0, 0.062);
   padding: 2rem;
   border-radius: 2rem;
@@ -313,7 +312,7 @@ footer {
             justify-content: space-evenly;
   }
   .skillsandprojects .skill {
-    width: 40%;
+    width: auto;
     -ms-grid-column-align: center;
         justify-self: center;
     -ms-flex-line-pack: center;
