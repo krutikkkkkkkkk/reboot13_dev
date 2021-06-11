@@ -150,14 +150,13 @@ a:hover {
       margin-top: 2rem;
       text-align: left;
   }
-    .banner {
-     img {
-         padding-top: 2rem;
-         height: auto;
-         width: 15rem;
-         margin: 0 auto;
-        
-     }
+  .banner {
+    img {
+    margin-top: 5rem;
+    height: auto;
+    width: 15rem;
+    place-content: center;
+}
     }
 }
 }
@@ -335,6 +334,7 @@ footer {
              margin-top: 5rem;
              height: auto;
              width: 30rem;
+             place-content: center;
          }
      }
     }
