@@ -203,6 +203,7 @@ a:hover {
 
 .skillsandprojects .about p {
   margin-top: 2rem;
+  text-align: left;
 }
 
 .skillsandprojects .about img {
@@ -307,9 +308,12 @@ footer {
     -webkit-box-direction: normal;
         -ms-flex-direction: column;
             flex-direction: column;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
   }
   .skillsandprojects .skill {
-    width: 80%;
+    width: 40%;
     -ms-grid-column-align: center;
         justify-self: center;
     -ms-flex-line-pack: center;
@@ -319,16 +323,25 @@ footer {
             justify-content: space-between;
   }
   .skillsandprojects .about {
+    width: 60%;
     -ms-grid-column-align: center;
         justify-self: center;
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding: 2rem;
+    -ms-flex-item-align: center;
+        -ms-grid-row-align: center;
+        align-self: center;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
   .skillsandprojects .about img {
     margin-top: 5rem;
     height: auto;
     width: 20rem;
+    -ms-flex-line-pack: center;
+        align-content: center;
   }
 }
 
@@ -369,7 +382,7 @@ footer {
   }
   .skillsandprojects {
     margin: 2rem;
-    width: 100%;
+    width: 90vw;
     -webkit-box-orient: horizontal;
     -webkit-box-direction: normal;
         -ms-flex-direction: row;
@@ -385,9 +398,10 @@ footer {
         justify-self: center;
     -ms-flex-line-pack: center;
         align-content: center;
-    -webkit-box-pack: justify;
-        -ms-flex-pack: justify;
-            justify-content: space-between;
+    -webkit-box-pack: space-evenly;
+        -ms-flex-pack: space-evenly;
+            justify-content: space-evenly;
+    width: 30rem;
   }
   .skillsandprojects .skill img {
     left: 15rem;
@@ -398,6 +412,7 @@ footer {
     -webkit-box-pack: center;
         -ms-flex-pack: center;
             justify-content: center;
+    padding: 3rem;
   }
   .skillsandprojects .about img {
     margin-top: 5rem;

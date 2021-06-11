@@ -149,6 +149,7 @@ a:hover {
         text-align: center;
   p {
       margin-top: 2rem;
+      text-align: left;
   }
      img {
          padding-top: 2rem;
@@ -237,10 +238,11 @@ footer {
     }
     .skillsandprojects {
         flex-direction: column;
+        justify-content: space-evenly;
     
 
         .skill {
-            width: 80%;
+            width: 40%;
             justify-self: center;
             align-content: center;
             justify-content: space-between;
@@ -249,13 +251,18 @@ footer {
            
         }
         .about {
+            width: 60%;
             justify-self: center;
             justify-content: center;
+            padding: 2rem;
+            align-self: center;
+            align-content: center;
 
             img {
                 margin-top: 5rem;
                 height: auto;
-                width: 30rem;
+                width: 20rem;
+                align-content: center;
             }
         }
     }
@@ -298,7 +305,7 @@ footer {
  }
  .skillsandprojects {
      margin: 2rem;
-     width: 100%;
+     width: 90vw;
      flex-direction: row;
      justify-content:space-between;
      align-content: center;
@@ -306,7 +313,8 @@ footer {
      .skill {
          justify-self: center;
          align-content: center;
-         justify-content: space-between;
+         justify-content: space-evenly;
+         width: 30rem;
          img {
              left:15rem;
          }
@@ -315,6 +323,7 @@ footer {
      .about {
          justify-self: center;
          justify-content: center;
+         padding: 3rem;
 
          img {
              margin-top: 5rem;
