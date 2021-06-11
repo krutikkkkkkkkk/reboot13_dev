@@ -255,7 +255,7 @@ footer {
   padding: 1rem;
 }
 
-@media only screen and (min-width: 370px) {
+@media only screen and (min-width: 350px) {
   body {
     margin: 1rem;
   }
@@ -324,6 +324,9 @@ footer {
         align-self: center;
     -ms-flex-line-pack: center;
         align-content: center;
+  }
+  .skillsandprojects .about p {
+    text-align: left;
   }
 }
 
@@ -395,6 +398,9 @@ footer {
         -ms-flex-pack: center;
             justify-content: center;
     padding: 3rem;
+  }
+  .skillsandprojects .about p {
+    text-align: center;
   }
   .social {
     display: -webkit-box;
