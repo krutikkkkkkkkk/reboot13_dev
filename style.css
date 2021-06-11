@@ -205,10 +205,11 @@ a:hover {
   text-align: left;
 }
 
-.skillsandprojects .about img {
+.skillsandprojects .about .banner img {
   padding-top: 2rem;
   height: auto;
-  width: 10rem;
+  width: 15rem;
+  margin: 0 auto;
 }
 
 .social {
@@ -335,7 +336,7 @@ footer {
     -ms-flex-line-pack: center;
         align-content: center;
   }
-  .skillsandprojects .about img {
+  .skillsandprojects .about .banner img {
     margin-top: 5rem;
     height: auto;
     width: 20rem;
@@ -413,7 +414,7 @@ footer {
             justify-content: center;
     padding: 3rem;
   }
-  .skillsandprojects .about img {
+  .skillsandprojects .about .banner img {
     margin-top: 5rem;
     height: auto;
     width: 30rem;

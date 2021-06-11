@@ -150,12 +150,16 @@ a:hover {
       margin-top: 2rem;
       text-align: left;
   }
+    .banner {
      img {
          padding-top: 2rem;
          height: auto;
-         width: 10rem;
+         width: 15rem;
+         margin: 0 auto;
+        
      }
     }
+}
 }
 .social {
     display: flex;
@@ -257,13 +261,15 @@ footer {
             align-self: center;
             align-content: center;
 
-            img {
+            .banner {
+                img {
                 margin-top: 5rem;
                 height: auto;
                 width: 20rem;
                 align-content: center;
             }
         }
+    }
     }
 
    
@@ -324,12 +330,14 @@ footer {
          justify-content: center;
          padding: 3rem;
 
-         img {
+         .banner {
+             img {
              margin-top: 5rem;
              height: auto;
              width: 30rem;
          }
      }
+    }
  }
 
  .social {
